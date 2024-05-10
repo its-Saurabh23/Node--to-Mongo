@@ -25,7 +25,7 @@ const server = express()
 server.use(cors());
 server.use(bodyParser.json())
 
-// Crud -CREATE
+// Crud-CREATE
 server.post('/', async(req,res)=>{
 
     let user = new User();
